@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-intercom",
+  "version": "0.1.0",
+  "description": "Intercom MCP Pack — contacts, conversations, companies via OAuth.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "intercom"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-intercom"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
