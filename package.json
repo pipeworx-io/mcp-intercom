@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-intercom",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Intercom MCP Pack — contacts, conversations, companies via OAuth.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-b239d36bfa910a85c4a59295d0c90e4fd77574f822aa405d9c8c26cf4e82403e",
-    "sourceCommit": "70cd53748fc9f9a43ed3681d751bfa96e701efd2"
+    "sourceHash": "v1-cc00467596e553c1c1e4eb10e45661466dbdad6632b2bd87326e70aed0180feb",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }
