@@ -1,0 +1,84 @@
+[
+  {
+    "name": "ic_search_contacts",
+    "description": "Search for contacts by name, email, or custom attributes. Returns contact ID, name, email, and metadata.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Search by email, name, or other field"
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "name": "ic_get_contact",
+    "description": "Get full contact details by ID. Returns name, email, phone, attributes, tags, and conversation history.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Contact ID"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  {
+    "name": "ic_list_conversations",
+    "description": "List conversations with pagination. Returns conversation ID, participants, status, created date, and last message preview.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "per_page": {
+          "type": "number",
+          "description": "Results per page (default 20)"
+        },
+        "starting_after": {
+          "type": "string",
+          "description": "Pagination cursor"
+        }
+      }
+    }
+  },
+  {
+    "name": "ic_get_conversation",
+    "description": "Get complete conversation thread by ID. Returns all messages, timestamps, participants, and metadata.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Conversation ID"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  {
+    "name": "ic_list_companies",
+    "description": "List companies with pagination. Returns company ID, name, website, employee count, and custom attributes.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "per_page": {
+          "type": "number",
+          "description": "Results per page (default 20)"
+        },
+        "page": {
+          "type": "number",
+          "description": "Page number"
+        }
+      }
+    }
+  }
+]

@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/intercom",
   "title": "Intercom",
   "description": "Intercom MCP Pack — contacts, conversations, companies via OAuth.",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/intercom",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-intercom",
