@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-intercom",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Intercom MCP Pack — contacts, conversations, companies via OAuth.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "intercom",
     "gatewaySlug": "intercom",
-    "sourceHash": "v1-be0aeec3879479364e79fcf308f53da9233f92b7b583b877c18dbe44ae90e8cf",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-0fb06e197a66b526bdeab199229c2d212dae3592c6c1bf603fd1f133a5f0ae70",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
